@@ -3,26 +3,25 @@ import Head from "next/head";
 function GlobalMeta() {
   return (
     <Head>
-      <meta key="description" name="description" content={"Desc..."} />
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <link
-        rel="shortcut icon"
-        type="image/x-icon"
-        href="/assets/img/favicon.ico"
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-      <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-      <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
-      <link rel="stylesheet" href="/assets/css/slick.css" />
-      <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
-      <link rel="stylesheet" href="/assets/css/font.awesome.css" />
-      <link rel="stylesheet" href="/assets/css/ionicons.min.css" />
-      <link rel="stylesheet" href="/assets/css/animate.css" />
-      <link rel="stylesheet" href="/assets/css/jquery-ui.min.css" />
-      <link rel="stylesheet" href="/assets/css/slinky.menu.css" />
-      <link rel="stylesheet" href="/assets/css/plugins.css" />
-      <link rel="stylesheet" href="/assets/css/style.css" />
+      <meta name="theme-color" content="#3ed2a7" />
 
-      <script src="/assets/js/vendor/modernizr-3.7.1.min.js"></script>
+      {/* 
+        <link rel="shortcut icon" href="./favicon.png" />
+        */}
+
+      <link rel="stylesheet" href="https://use.typekit.net/qxb8htk.css" />
+      <link rel="stylesheet" href="/css/liquid-icon/liquid-icon.min.css" />
+      <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="/css/theme-vendors.min.css" />
+      <link rel="stylesheet" href="/css/theme.min.css" />
+      <link rel="stylesheet" href="/css/themes/original.css" />
+      <script async src="/js/modernizr.min.js"></script>
     </Head>
   );
 }
