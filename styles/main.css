@@ -1,0 +1,11 @@
+﻿.faded-bg {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.faded-bg-mauve {
+  background-color: rgba(20, 13, 56, 0.6);
+}
+
+.text-bright-yellow {
+  color: var(--color-cadmium);
+}
