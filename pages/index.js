@@ -1,7 +1,7 @@
 import Layout from "../components/layout/layout";
 
 function HomePage() {
-  const title = "Welcome to Next.js!";
+  const title = "Special Preaching Campaign | Haitain Creole | South Florida";
 
   return (
     <Layout title={title}>
@@ -39,12 +39,18 @@ function HomePage() {
                     data-text-rotator="true"
                   >
                     <div className="ld-fh-txt">
-                      Special Preaching Campaign{" "}
+                      <div className="font-size-1-25x- mb-25">
+                        Special Preaching Campaign
+                      </div>
                       <div className="txt-rotate-keywords font-size-42">
                         <span className="keyword active">
-                          Metropolitan Witnessing
+                          Metropolitan
+                          <span className="hidden-xs">&nbsp;Witnessing</span>
                         </span>
-                        <span className="keyword">Cultural Entertainment</span>
+                        <span className="keyword">
+                          <span className="hidden-xs">Cultural &nbsp;</span>
+                          Entertainment
+                        </span>
                         <span className="keyword">Haitian Food</span>
                         <span className="keyword">Sandy Beaches</span>
                       </div>
@@ -80,14 +86,16 @@ function HomePage() {
                 data-custom-animations="true"
                 data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","startDelay":"3500","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scaleX":0.25,"scaleY":0.25,"opacity":0},"animations":{"scaleX":1,"scaleY":1,"opacity":1}}'
               >
+                {/*
                 <a
                   href="#"
-                  class="btn btn-solid semi-round btn-secondary"
+                  className="btn btn-solid semi-round btn-secondary"
                   data-localscroll="true"
                   data-localscroll-options='{"scrollBelowSection": true}'
                 >
-                  <span class="btn-txt font-size-18">Volunteer</span>
+                  <span className="btn-txt font-size-18">Volunteer</span>
                 </a>
+                */}
               </div>
             </div>
           </div>
