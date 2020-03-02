@@ -9,12 +9,14 @@ export default function Footer() {
                 <li>
                   <a href="#">About SPC Miami</a>
                 </li>
+                {/*
                 <li>
                   <a href="#">Volunteer</a>
                 </li>
                 <li>
                   <a href="#">Contact Us</a>
                 </li>
+                */}
               </ul>
             </div>
 
