@@ -1,10 +1,14 @@
-import Layout from "../components/layout/layout";
+import Head from "next/head";
 
-function HomePage() {
+function ComingSoonPage() {
   const title = "Special Preaching Campaign | Haitain Creole | South Florida";
 
   return (
-    <Layout title={title}>
+    <div id="wrap">
+      <Head>
+        <title>{title}</title>
+        <meta key="description" name="description" content={title} />
+      </Head>
       <main id="content" className="content">
         <section
           className="vc_row bg-cover bg-center fullheight d-flex align-items-center py-5"
@@ -101,8 +105,45 @@ function HomePage() {
           </div>
         </section>
       </main>
-    </Layout>
+
+      <footer
+        className="main-footer bg-charade pt-70"
+        data-sticky-footer="true"
+      >
+        <section className="bt-fade-white-015 pt-35 pb-35 mt-50">
+          <div className="container">
+            <div className="row">
+              <div className="lqd-column col-md-6">
+                <ul className="lqd-custom-menu reset-ul inline-nav">
+                  <li>
+                    <a href="#">About SPC Miami</a>
+                  </li>
+                  {/*
+                <li>
+                  <a href="#">Volunteer</a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                </li>
+                */}
+                </ul>
+              </div>
+
+              <div className="lqd-column col-md-6 text-md-right">
+                <p className="my-0">
+                  <span>&copy; {new Date().getFullYear()} SPC Miami.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+
+      <script src="/js/jquery.min.js"></script>
+      <script src="/js/theme-vendors.js"></script>
+      <script src="/js/theme.min.js"></script>
+    </div>
   );
 }
 
-export default HomePage;
+export default ComingSoonPage;
